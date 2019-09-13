@@ -30,7 +30,7 @@ public class Pais implements Comparable<Pais>  {
         return nome + " ("+cod + ") area: " + area;
     }
 
-    // a interface comparable só é bom para comparar por um atributo
+    // a interface comparable só é bom para comparar por um atributo.
     @Override
     public int compareTo(Pais outroPais) {
         return this.nome.compareTo(outroPais.nome);
